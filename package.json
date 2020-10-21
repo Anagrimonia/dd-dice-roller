@@ -1,0 +1,26 @@
+{
+  "name": "dd-dice-roller",
+  "version": "1.0.0",
+  "description": "An application that allows you to roll dice virtually.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Anagrimonia/dd-dice-roller.git"
+  },
+  "author": "Anastasiia Kolonskaia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anagrimonia/dd-dice-roller/issues"
+  },
+  "homepage": "https://github.com/Anagrimonia/dd-dice-roller#readme",
+  "dependencies": {
+    "dice": "0.0.2",
+    "dice.js": "^0.9.3",
+    "express": "^4.17.1",
+    "phaser": "^3.24.1"
+  }
+}
