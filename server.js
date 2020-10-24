@@ -7,6 +7,6 @@ app.get('/', function(req, res) {
     res.redirect('index.html');
 });
 
-app.listen(8080, () => {
-  console.log('Server listening on http://localhost:8080');
+app.listen(8081, '0.0.0.0', () => {
+  console.log('Server listening on http://0.0.0.0:8081');
 });
