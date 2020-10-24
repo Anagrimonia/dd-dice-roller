@@ -21,10 +21,16 @@ git clone https://github.com/Anagrimonia/dice-roller.git
 ```
 cd dice-roller
 ```
-- Запустить NodeJS-сервер:
+- Развернуть приложение в докер-контейнере:
 ```
+docker-compose up --build -d?
+```
+Или запустить NodeJS-сервер:
+```
+npm build
 npm start
 ```
+
 
 #### Какие дополнительные функции (или выход за рамки функции бросания кубика) захотят пользователи такого приложения и почему?
 
