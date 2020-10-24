@@ -55,11 +55,11 @@ export class Bar extends Phaser.GameObjects.Container {
     var buttonDelete = config.game.add.sprite(
       -25, 
       0, 
-      'add-button'
+      'delete-button'
     );
 
     buttonDelete.setDepth(1);
-    buttonDelete.setScale(0.15);
+    buttonDelete.setScale(0.5);
     buttonDelete.setInteractive();
     buttonDelete.on('pointerdown', () => config.deleteCube(config.game), config.game);
 
@@ -68,11 +68,11 @@ export class Bar extends Phaser.GameObjects.Container {
     var buttonRoll = config.game.add.sprite(
       25, 
       0, 
-      'add-button'
+      'roll-button'
     );
 
     buttonRoll.setDepth(1);
-    buttonRoll.setScale(0.15);
+    buttonRoll.setScale(0.5);
     buttonRoll.setInteractive();
     buttonRoll.on('pointerdown', () => config.rollAll(config.game), config.game);
 

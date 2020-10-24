@@ -13,7 +13,9 @@ var dicesNumber = 1;
 
 function preload() {
   this.load.image('dice-shadow', 'static/dice-shadow.png')
-  this.load.image('add-button', 'static/add-button.png')
+  this.load.image('delete-button', 'static/delete-button.png')
+  this.load.image('roll-button', 'static/roll-button.png')
+
 
   for (let s of SIDES)
     this.load.image(`dice-${s}`, `static/dice-${s}.png`)
@@ -151,13 +153,13 @@ function resize(game)
       game.tweens.add({
         targets: game.bar.list[0],
         x: 0,
-        y: -40,
+        y: -50,
         ease: 'Power1',
       });
 
       game.tweens.add({
         targets: game.bar.list[1],
-        y: 15,
+        y: 10,
         ease: 'Power1',
       });
 
@@ -165,7 +167,7 @@ function resize(game)
         targets: game.bar.list[2],
         x: 0 ,
         y: 50,
-        scale: 0.5,
+        scale: 0.7,
         ease: 'Power1',
       });
     }
