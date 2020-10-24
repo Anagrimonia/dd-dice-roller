@@ -25,7 +25,7 @@ cd dice-roller
 ```
 docker-compose up --build -d?
 ```
-Или запустить NodeJS-сервер:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Или запустить NodeJS-сервер:
 ```
 npm build
 npm start
