@@ -27,7 +27,7 @@ docker-compose up --build -d
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Или запустить NodeJS-сервер:
 ```
-npm build
+npm install
 npm start
 ```
 
