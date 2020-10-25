@@ -23,7 +23,7 @@ cd dice-roller
 ```
 - Развернуть приложение в докер-контейнере:
 ```
-docker-compose up --build -d?
+docker-compose up --build -d
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Или запустить NodeJS-сервер:
 ```
